@@ -47,4 +47,4 @@ let a = 10,
 
 const saludo =  c + d;
 
-// console.log(saludo);
+console.log(saludo);
