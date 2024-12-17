@@ -16,30 +16,30 @@ let personaje = {
     ultima_pelicula: 'Infiny war'
 };
 
-// console.log(personaje);
-// console.log('Nombre:', personaje.nombre);//Dos formas de obetener el valor
-// console.log('Nombre:', personaje['nombre']);
+console.log(personaje);
+console.log('Nombre:', personaje.nombre);//Dos formas de obetener el valor
+console.log('Nombre:', personaje['nombre']);
 
-// console.log('edad:', personaje.edad);
-// console.log('edad:', personaje['edad']);
+console.log('edad:', personaje.edad);
+console.log('edad:', personaje['edad']);
 
-// console.log('lat:', personaje.coords.lat);
-// console.log('lat:', personaje['coords']['lat']);
+console.log('lat:', personaje.coords.lat);
+console.log('lat:', personaje['coords']['lat']);
 
-// console.log('Nro. Trajes:', personaje.trajes.length);
-// console.log('Ultimo Traje:', personaje.trajes[personaje.trajes.length - 1]);
+console.log('Nro. Trajes:', personaje.trajes.length);
+console.log('Ultimo Traje:', personaje.trajes[personaje.trajes.length - 1]);
 
 const x = 'vivo';
-// console.log('Vivo', personaje[x]);
+console.log('Vivo', personaje[x]);
 
-// console.log('ultima pelicula:', personaje.ultima_pelicula);
+console.log('ultima pelicula:', personaje.ultima_pelicula);
 
 //MAS DETALLES
 
 delete personaje.edad;//Asi borramos datos de un objeto
 
 const entriesPares = Object.entries( personaje );//Pares de valores
-// console.log(entriesPares);
+console.log(entriesPares);
 
 personaje.casado = true;//asi agregamos un nuevo dato al objeto
 
